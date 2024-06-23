@@ -1,0 +1,113 @@
+/* Reset de estilos básico
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos da barra de navegação */
+/* header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+} */ 
+ /* Reset de estilos para garantir consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para o corpo do documento */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #c8a0d6;
+    color: #c8a0d6;;
+    padding: 10px 0;
+}
+
+/* Estilos para a barra de navegação */
+nav {
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #ffb5e0;
+}
+
+/* Estilos para as seções */
+section {
+    padding: 20px;
+    background-color: #eebee6;
+    margin: 10px 0;
+    text-align: center;
+    /* background-color:rgb(240, 173, 240); */
+    background-color: #c8a0d6; /* Cor de fundo lilás */
+        padding: 20px;
+        border-radius: 10px; /* Bordas arredondadas */
+}
+
+/* Estilos para cabeçalhos das seções */
+section h1 {
+    color: #414040;
+    font-size: larger; /* Tamanho da fonte aumentado em 20% */
+}
+
+/* Estilos para parágrafos nas seções */
+
+div{
+    text-align: center;
+    image-resolution: 100px;
+}
+body{
+    background-color:  rgb(245, 189, 245)
+}
+p{
+    color: #000000;
+    font-size: larger;
+}
