@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mapa de Fortaleza</title>
+<style>
+  /* Estilo para o contêiner do mapa */
+  #map {
+    height: 400px; /* Altura do mapa */
+    width: 100%; /* Largura do mapa (usando toda a largura disponível) */
+    border: 1px solid #ccc; /* Borda ao redor do mapa */
+    border-radius: 10px; /* Cantos arredondados do mapa */
+  }
+</style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="inicio.html">Ínicio</a></li>
+        <li><a href="ajuda.html">Ajuda</a></li>
+        <li><a href="bairros.html">Bairros</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <h1>Mapa de Fortaleza</h1>
+
+  <!-- Div onde o mapa será exibido -->
+  <div id="map"></div>
+
+  <!-- Script para inicializar o mapa -->
+  <script>
+    function initMap() {
+      // Coordenadas do centro de Fortaleza
+      var fortaleza = {lat: -3.71839, lng: -38.5434};
+
+      // Opções do mapa
+      var mapOptions = {
+        zoom: 12, // Nível de zoom inicial
+        center: fortaleza // Centro inicial do mapa
+      };
+
+      // Criando o mapa dentro do elemento com id "map"
+      var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+    }
+  </script>
+
+  <!-- Importando a API do Google Maps com a sua chave de API -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=SUA_CHAVE_DE_API&callback=initMap" async defer></script>
+
+</body>
+</html>

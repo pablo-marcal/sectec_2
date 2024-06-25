@@ -39,6 +39,7 @@ nav ul li a:hover {
 
 /* Estilos para o corpo do documento */
 body {
+
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f0f0f0;
@@ -88,14 +89,23 @@ section {
     text-align: center;
     /* background-color:rgb(240, 173, 240); */
     background-color: #c8a0d6; /* Cor de fundo lilás */
-        padding: 20px;
-        border-radius: 10px; /* Bordas arredondadas */
+    padding: 20px;
+    border-radius: 10px; /* Bordas arredondadas */
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 0 auto; /* Margem automática para centralizar */
+    padding: 20px;
+
+
 }
 
 /* Estilos para cabeçalhos das seções */
 section h1 {
     color: #414040;
     font-size: larger; /* Tamanho da fonte aumentado em 20% */
+    
 }
 
 /* Estilos para parágrafos nas seções */
@@ -109,5 +119,11 @@ body{
 }
 p{
     color: #000000;
+    font-size: larger;
+}
+.section{
+    text-align: center;
+}
+#ajuda , #inicio , #bairros{
     font-size: larger;
 }
